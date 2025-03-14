@@ -295,7 +295,7 @@ export function useRelationReference({
             [relationInfo.value.collectionField.field]: collection,
             [relationInfo.value.junctionField.field]: {},
         };
-
+        newItem = true;
         // [!MODIFIED!] assign `type` and add `type` to function parameters
         editModalActive.value[type] = true;
     }
